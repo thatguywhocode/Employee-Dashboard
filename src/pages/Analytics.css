@@ -1,0 +1,125 @@
+.analytics-container {
+  min-height: 100vh;
+  padding: 70px 100px;
+
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.analytics-header {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.analytics-header h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.analytics-subtitle {
+  font-size: 16px;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+
+/* Layout */
+.analytics-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Card */
+.analytics-card {
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  padding: 30px 40px;
+  transition: 0.3s ease;
+}
+
+.analytics-card:hover {
+  transform: translateY(-3px);
+}
+
+
+.card-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  border-left: 4px solid rgba(75, 192, 192, 0.8);
+  padding-left: 10px;
+}
+
+
+.chart-section .card-body {
+  height: 380px;
+}
+
+/* Map Height */
+.map-section .card-body {
+  height: 350px;
+}
+
+.map-section .leaflet-container {
+  border-radius: 12px;
+}
+.summary-grid {
+  width: 100%;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.summary-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.summary-card h4 {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.back-btn {
+  display: block;
+  margin: 70px auto 0 auto;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background: #3171e9;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}

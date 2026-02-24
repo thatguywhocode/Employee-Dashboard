@@ -1,0 +1,22 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Force full screen coverage */
+html {
+  height: 100%;
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to right, #141e30, #243b55);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100%;
+}
